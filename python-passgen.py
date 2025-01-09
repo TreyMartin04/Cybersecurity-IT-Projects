@@ -1,3 +1,9 @@
+# Password Generator
+# This code generates a secure, random password with a specified length (default 10 characters). 
+# It ensures that the password contains at least one uppercase letter, one lowercase letter, one digit, and one punctuation character, 
+# fulfilling common complexity requirements. After ensuring these criteria are met, it randomly selects additional characters from the 
+# available character sets to complete the desired password length. Finally, it shuffles the characters to avoid predictable patterns 
+# and returns the password as a string.
 import random
 import string
 
